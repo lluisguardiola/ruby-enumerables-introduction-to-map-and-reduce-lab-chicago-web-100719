@@ -72,7 +72,7 @@ def reduce_to_all_true(source_array)
       return true
     else
       return false
-      
+    end
     counter += 1
   end
 end
