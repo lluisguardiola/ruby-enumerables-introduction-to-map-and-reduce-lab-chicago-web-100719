@@ -81,11 +81,11 @@ end
 
 def reduce_to_any_true(source_array)
   
-  i = 0
+  counter = 0
   
-  while i < source_array.length do
-    return true if source_array[i] == true
-    i += 1
+  while counter < source_array.length do
+    return true if source_array[counter] == true
+    counter += 1
   end
   
   return false
