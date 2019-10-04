@@ -1,4 +1,5 @@
 def map_to_negativize(source_array)
+  source_array = []
   new_array = source_array*-1
   return new_array
 end
