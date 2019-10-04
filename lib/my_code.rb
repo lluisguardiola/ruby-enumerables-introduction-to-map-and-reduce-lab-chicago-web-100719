@@ -1,8 +1,9 @@
 def map_to_negativize
   new_array = []
   counter = 0
-  while source_array.length > counter do
+  while counter < source_array.length do
     new_array << source_array[counter]*-1
+    counter += 1
   end
 end
 
