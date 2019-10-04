@@ -56,7 +56,7 @@ def reduce_to_total(source_array, starting_point)
   
   while counter < source_array.length do
     starting_point += source_array[counter]
-    counter += 1
+    counte1r += 
   end
   
   return starting_point
